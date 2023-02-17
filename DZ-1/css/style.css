@@ -1,0 +1,32 @@
+a {
+	text-decoration: none;
+}
+
+.nav-menu {
+	color: cornflowerblue;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.top_heading {
+	color: #222222;
+	font-size: 28px;
+	line-height: 36px;
+	font-weight: bold;
+}
+
+.heading_2 {
+	color: coral;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 80px;
+}
+
+.text {
+	color: #7D7987;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 30px;
+}
