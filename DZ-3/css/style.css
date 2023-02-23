@@ -3,18 +3,57 @@
 	margin: 0;
 }
 
+.main-wrp {
+
+}
+
 .header {
 	padding: 40px 0px;
 }
+.logo{
 
+}
+.main-menu{
+
+}
+.main-menu-list{
+
+}
+.main-menu-list-item{
+
+}
 .promo-block {
 	margin: 0 0 260px 0;
 }
 
+.promo-content{
+
+}
 .promo-content-title {
 	margin: 0 0 20px 0;
 }
 
 .promo-desc {
 	margin: 0 0 50px 0;
+}
+
+.promo-btn{
+
+}
+.promo-btn-button{
+
+}
+
+.promo-img{
+
+}
+
+.partners{
+
+}
+.partners-list{
+
+}
+.partners-list-item{
+	
 }
