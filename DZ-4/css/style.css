@@ -1,0 +1,239 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	font-style: normal;
+	font-weight: 400;
+
+	/* Браузер сначала попробует найти шрифт локально */
+	src: local("Gilroy"),
+		/* Если не получилось, загрузит woff2 */
+		url("fonts/Gilroy/Gilroy-Regular.woff2") format("woff2"),
+		/* Если браузер не поддерживает woff2, загрузит woff */
+		url("fonts/Gilroy/Gilroy-Regular.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Gilroy-Bold";
+	/* font-style: normal; */
+	font-weight: 400;
+
+	/* Браузер сначала попробует найти шрифт локально */
+	src: local("Gilroy-Bold"),
+		/* Если не получилось, загрузит woff2 */
+		url("fonts/Gilroy/Gilroy-Bold.woff2") format("woff2"),
+		/* Если браузер не поддерживает woff2, загрузит woff */
+		url("fonts/Gilroy/Gilroy-Bold.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Gilroy-SemiBold";
+	font-style: normal;
+	font-weight: 400;
+
+	/* Браузер сначала попробует найти шрифт локально */
+	src: local("Gilroy-SemiBold"),
+		/* Если не получилось, загрузит woff2 */
+		url("fonts/Gilroy/Gilroy-SemiBold.woff2") format("woff2"),
+		/* Если браузер не поддерживает woff2, загрузит woff */
+		url("fonts/Gilroy/Gilroy-SemiBold.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Gilroy-Medium";
+	/* font-style: normal; */
+	font-weight: 400;
+
+	/* Браузер сначала попробует найти шрифт локально */
+	src: local("Gilroy-Medium"),
+		/* Если не получилось, загрузит woff2 */
+		url("fonts/Gilroy/Gilroy-Medium.woff2") format("woff2"),
+		/* Если браузер не поддерживает woff2, загрузит woff */
+		url("fonts/Gilroy/Gilroy-Medium.woff") format("woff");
+}
+
+body {
+	font-family: "Gilroy", sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 22px;
+	color: black;
+}
+
+a {
+	text-decoration: none;
+}
+
+.center {
+	max-width: 1175px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.main-wrp {
+	/* outline: 1px solid red; */
+}
+
+/* ********** header ********** */
+.header {
+	padding: 40px 0px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 100px;
+	/* outline: 1px solid red; */
+}
+
+.logo {
+	/* outline: 1px solid red; */
+}
+
+.logo a {
+	font-family: 'Gilroy-Bold';
+	font-size: 24px;
+	line-height: 28px;
+	height: 46px;
+	color: #000000;
+}
+
+.logo-link {
+	/* outline: 1px solid red; */
+}
+
+.logo-txt {
+	vertical-align: top;
+}
+
+.logo-txt__color {
+	color: #F25822;
+}
+
+.main-menu-wrp {}
+
+.main-menu-list {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 30px;
+	/* outline: 1px solid red; */
+}
+
+.main-menu-list-item {}
+
+.main-menu-list-item a {
+	color: black;
+	line-height: 16px;
+	font-family: 'Gilroy-SemiBold';
+	font-size: 14px;
+	/* outline: 1px solid red; */
+	width: 60px;
+}
+
+.main-menu-list-item-home a {
+	color: #F25822;
+	line-height: 16px;
+	font-family: 'Gilroy-SemiBold';
+	font-size: 14px;
+}
+
+/* ********** END header ********** */
+/* ********** promo-block ********** */
+.promo-block {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 33px;
+	margin: 0 0 260px 0;
+}
+
+.promo-content {
+	max-width: 522px;
+	width: 100%;
+	/* outline: 1px solid red; */
+}
+
+.promo-content-title {
+	font-size: 60px;
+	line-height: 70px;
+	font-family: 'Gilroy-Bold';
+	margin: 0 0 20px 0;
+}
+
+.promo-desc {
+	margin: 0 0 50px 0;
+	font-family: 'Gilroy-Medium';
+	font-size: 20px;
+	line-height: 23px;
+	max-width: 466px;
+	color: #888888;
+}
+
+.promo-img {
+	width: 611px;
+	height: 375px;
+	/* outline: 1px solid green; */
+}
+
+.promo-img img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.promo-btn-wrp {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 20px;
+	/* outline: 1px solid orange; */
+}
+
+.promo-btn1 {
+	display: block;
+	border: none;
+	background: #F25822;
+	/* box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2); */
+	border-radius: 50px;
+	max-width: 140px;
+	width: 100%;
+	font-size: 15px;
+	line-height: 18px;
+	font-family: 'Gilroy-Bold';
+	color: #ffffff;
+	padding: 15px 35px;
+}
+
+.promo-btn2 {
+	display: block;
+	border: none;
+	background: #ffffff;
+	/* box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2); */
+	border-radius: 50px;
+	max-width: 165px;
+	width: 100%;
+	font-size: 15px;
+	line-height: 18px;
+	font-family: 'Gilroy-Bold';
+	color: #AAAAAA;
+	padding: 15px 35px;
+}
+
+/* ********** END promo-block ********** */
+/* ********** partners ********** */
+.partners {}
+
+.partners-list {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	/* align-items: center; */
+	gap: 33px;
+}
+
+.partners-list-item {}
+
+/* ********** END partners ********** */
