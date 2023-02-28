@@ -103,6 +103,8 @@ a {
 	/* outline: 1px solid red; */
 }
 
+.logo-pic {}
+
 .logo-txt {
 	vertical-align: top;
 }
@@ -122,6 +124,13 @@ a {
 	/* outline: 1px solid red; */
 }
 
+.main-menu-list-item-home a {
+	color: #F25822;
+	line-height: 16px;
+	font-family: 'Gilroy-SemiBold';
+	font-size: 14px;
+}
+
 .main-menu-list-item {}
 
 .main-menu-list-item a {
@@ -131,13 +140,6 @@ a {
 	font-size: 14px;
 	/* outline: 1px solid red; */
 	width: 60px;
-}
-
-.main-menu-list-item-home a {
-	color: #F25822;
-	line-height: 16px;
-	font-family: 'Gilroy-SemiBold';
-	font-size: 14px;
 }
 
 /* ********** END header ********** */
@@ -172,18 +174,6 @@ a {
 	color: #888888;
 }
 
-.promo-img {
-	width: 611px;
-	height: 375px;
-	/* outline: 1px solid green; */
-}
-
-.promo-img img {
-	display: block;
-	width: 100%;
-	height: 100%;
-}
-
 .promo-btn-wrp {
 	display: flex;
 	justify-content: flex-start;
@@ -191,6 +181,8 @@ a {
 	gap: 20px;
 	/* outline: 1px solid orange; */
 }
+
+.promo-btn {}
 
 .promo-btn1 {
 	display: block;
@@ -222,6 +214,18 @@ a {
 	padding: 15px 35px;
 }
 
+.promo-img {
+	width: 611px;
+	height: 375px;
+	/* outline: 1px solid green; */
+}
+
+.promo-img img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
 /* ********** END promo-block ********** */
 /* ********** partners ********** */
 .partners {}
@@ -237,3 +241,127 @@ a {
 .partners-list-item {}
 
 /* ********** END partners ********** */
+/* ********** second-block ********** */
+.second-block {}
+
+.widgets {
+	display: grid;
+	/* grid-template-columns: repeat(3, 1fr); */
+	/* grid-template-columns: repeat(auto-fit, 250px); */
+
+	grid-template-columns: repeat(auto-fit, minmax(310px, 2fr));
+	gap: 16px;
+	justify-content: center;
+}
+
+.widgets-card {
+
+	width: 310px;
+	height: 226px;
+	padding-top: 140px;
+}
+
+.widgets-card-title {
+	font-family: 'Gilroy-Bold';
+
+	font-size: 24px;
+	line-height: 28px;
+
+	color: #000000;
+}
+
+.widgets-card-desc {
+	font-size: 15px;
+	line-height: 22px;
+
+
+	color: #666666;
+}
+
+.widgets-card-link {
+	font-family: 'Gilroy-Bold';
+	font-size: 11px;
+	line-height: 16px;
+
+
+	color: #000000;
+}
+
+.promo-block2 {
+	margin: 140px 0 0 0;
+	padding-bottom: 100px;
+}
+
+.promo-block2-1 {
+	max-width: 682px;
+	padding: 0 0 55px 246px;
+
+}
+
+.promo-block2-title {
+	font-family: 'Gilroy-Bold';
+	font-size: 45px;
+	line-height: 53px;
+	text-align: center;
+	color: #000000;
+}
+
+.promo-block2-desc {
+	font-family: 'Gilroy';
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	justify-content: center;
+	color: #666666;
+	padding-top: 19px;
+}
+
+
+.widgets-card2 {
+	display: grid;
+	/* grid-template-columns: repeat(3, 1fr); */
+	/* grid-template-columns: repeat(auto-fit, 250px); */
+
+	grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+	gap: 16px;
+	justify-content: center;
+}
+
+.widgets-card2-item {
+	width: 372px;
+	height: 549px;
+}
+
+.widgets-card2-title {
+	font-family: 'Gilroy-Bold';
+	font-size: 24px;
+	line-height: 28px;
+	margin-top: 25px;
+	padding-bottom: 22px;
+	text-align: center;
+	color: #000000;
+}
+
+.widgets-card2-content {
+	font-family: 'Gilroy';
+	font-size: 15px;
+	line-height: 22px;
+	max-width: 310px;
+	text-align: center;
+	padding-left: 35px;
+	color: #AAAAAA;
+}
+
+.widgets-card2-btn {
+	font-family: 'Gilroy-Bold';
+	font-size: 13px;
+	line-height: 20px;
+	max-width: 150px;
+	text-align: center;
+	margin: 39px 0 50px 100px;
+	color: #FFFFFF;
+}
+
+
+
+/* ********** END second-block ********** */
