@@ -1,0 +1,284 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: 400;
+
+	/* Браузер сначала попробует найти шрифт локально */
+	src: local("Lato"),
+		/* Если не получилось, загрузит woff2 */
+		url("fonts/Lato/Lato-Regular.woff2") format("woff2"),
+		/* Если браузер не поддерживает woff2, загрузит woff */
+		url("fonts/Lato/Lato-Regular.woff") format("woff");
+}
+
+body {
+	font-family: "Lato", sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 19px;
+	color: #222222;
+}
+
+a {
+	text-decoration: none;
+}
+
+.center {
+	width: 100%;
+	max-width: 1140px;
+	margin: 0 auto;
+	/* outline: 1px dashed blue */
+}
+
+.page_header_container {
+
+	background-color: #222222;
+}
+
+.page_header {
+	display: flex;
+	padding: 18px 0;
+	justify-content: space-between;
+}
+
+.page_header_wrp_btn {}
+
+.page_header_logo {
+	padding-right: 42px;
+}
+
+.page_header_search_form {
+	display: none;
+}
+
+.page_header_search_btn {
+	display: inline;
+}
+
+#search_btn {}
+
+.page_header_search_icon {
+	fill: #E8E8E8;
+}
+
+.menu-btn {
+	display: none;
+}
+
+#menu_switch {
+	display: none;
+}
+
+.menu_list {
+	display: none;
+}
+
+.menu_list_item {}
+
+.menu_list_close_btn {}
+
+.menu_list_title {}
+
+.menu_sublist {}
+
+.menu_sublist_item {}
+
+.menu_btn {}
+
+.menu_btn_icon {
+	fill: #E8E8E8;
+	padding: 10px 33px 0 33px;
+}
+
+.account_btn {}
+
+.account_btn_icon {
+	fill: #E8E8E8;
+	padding: 10px 33px 0 33px;
+}
+
+.cart_btn_link {}
+
+.cart_btn_link_icon {
+	fill: #E8E8E8;
+}
+
+.banner_block {
+	display: flex;
+	background: url('../img/man.png'), #F1E4E6;background-repeat: no-repeat;
+	margin: auto auto 95px auto;
+}
+
+.banner_block_img {}
+
+.banner_block_info {
+	display: flex;
+	width: 405px;
+	margin: 290px auto auto 63px;
+}
+
+.banner_block_rectangle {
+	display: inline-block;
+	/* left: 54%;
+	right: 45.25%;
+	top: 12.48%;
+	bottom: 84.38%; */
+	background: #F16D7F;
+	border: 1px solid;
+	width: 12px;
+	height: 93px;
+	border: none;
+	margin: 12px 16px 0 0;
+}
+
+.banner_block_title {
+	font-weight: 900;
+	font-style: normal;
+	font-size: 48px;
+	line-height: 58px;
+	text-transform: uppercase;
+	height: 93px;
+	width: 377px;
+}
+
+.banner_block_subtitle {
+
+	font-style: normal;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 38px;
+	text-transform: uppercase;
+}
+
+.banner_block_subtitle2 {
+	color: #F16D7F;
+}
+
+.categories {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+	margin-bottom: 96px;
+}
+
+.categories_block {
+	width: 360px;
+	height: 240px;
+}
+
+.categories_block_1 {
+	background-image: url('../img/1-for_women.png');
+}
+
+.categories_block_2 {
+	background-image: url('../img/2-for_men.png');
+}
+
+.categories_block_3 {
+	background-image: url('../img/3-for_kids.png');
+}
+
+.categories_block_title {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 105px 122px 0 122px;
+	color: #FFFFFF;
+}
+
+.categories_block_4 {
+	display: block;
+	width: 1140px;
+	height: 180px;
+	background-image: url('../img/4-ACCESORIES.png');
+}
+
+.categories_block_subtitle {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 29px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.categories_block_title_2 {
+	margin: 65px auto 0 auto;
+	text-align: center;
+}
+
+.categories_block_subtitle2 {}
+
+.categories_block_img {}
+
+.products-wrp {}
+
+.products_title {
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 36px;
+	text-align: center;
+	margin: 0 auto 6px auto;
+}
+
+.products_txt {
+	font-size: 14px;
+	line-height: 17px;
+	color: #9F9F9F;
+	text-align: center;
+	margin: 0 auto 48px auto;
+}
+
+.products {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+}
+
+.products_item {
+	width: 360px;
+	height: 581px;
+}
+
+.products_item_img {}
+
+.products_item_name {
+	font-size: 13px;
+	line-height: 16px;
+	color: #000000;
+	margin: 24px auto 12px 18px;
+}
+
+.products_item_desc {
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 17px;
+	color: #5D5D5D;
+	margin: 0 auto 18px 16px;
+	width: 314px;
+}
+
+.products_item_price {
+	color: #F16D7F;
+	margin: 0 auto 20px 18px;
+}
+
+.products_link_all {
+	display: block;
+	box-sizing: border-box;
+	border-color: #FF6A6A;
+	color: #F26376;
+	width: 212px;
+	height: 48px;
+	margin: 48px auto 60px auto;
+	text-align: center;
+	background-color: #fff;
+}
