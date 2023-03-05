@@ -65,11 +65,11 @@ a {
 }
 
 .search_icon_form_label:hover .page_header_search_icon {
-	fill: gold;
+	opacity: 0.7;
 }
 
 .search_icon_form_label:active .page_header_search_icon {
-	fill: green;
+	fill: #2c79ffd4;
 }
 
 .page_header_search_input {
@@ -92,14 +92,13 @@ a {
 
 .page_header_search_input:focus {
 	width: 180px;
-	transition: width 1s ease;
+	transition: width .5s ease;
 	border: 2px solid #fff;
 }
 
 .page_header_search_input:focus~.search_icon_form_label>.page_header_search_icon {
-	fill: aqua;
 	transform: translateX(160px);
-	transition: 1s ease;
+	transition: .5s ease;
 	left: -119px;
 }
 
@@ -109,10 +108,6 @@ a {
 }
 
 #search_btn {}
-
-.menu-btn {
-	display: none;
-}
 
 #menu_switch {
 	display: none;
@@ -132,12 +127,31 @@ a {
 
 .menu_sublist_item {}
 
+.menu_btn {}
+
+.menu_btn:hover {
+	opacity: 0.7;
+}
+
+.menu_btn:active .menu_btn_icon{
+	fill: #2c79ffd4;
+}
+
 .menu_btn_icon {
 	fill: #E8E8E8;
 	padding: 15px 16px 0 17px;
 }
 
 .account_btn {}
+
+.account_btn:hover .account_btn_icon{
+	opacity: 0.7;
+}
+
+
+.account_btn:active  .account_btn_icon{
+	fill: #2c79ffd4;
+}
 
 .account_btn_icon {
 	fill: #E8E8E8;
@@ -146,6 +160,13 @@ a {
 
 .cart_btn {}
 
+.cart_btn:hover {
+	opacity: 0.7;
+}
+
+.cart_btn:active  .cart_btn_icon{
+	fill: #2c79ffd4;
+}
 .cart_btn_icon {
 	fill: #E8E8E8;
 	padding: 10px 16px 0 17px;
