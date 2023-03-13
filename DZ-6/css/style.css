@@ -292,8 +292,11 @@ main {}
 }
 
 .products {
-	display: flex;
-	flex-wrap: wrap;
+	/* display: flex;
+	flex-wrap: wrap; */
+
+	display: grid;
+	grid-template-columns: repeat(3, minmax(30%, 360px));
 	justify-content: center;
 	gap: 30px;
 	margin-bottom: 48px;
@@ -450,6 +453,13 @@ footer {}
 
 /* ********** END footer ********** */
 
+@media(max-width: 1155px) {
+	.products {
+		grid-template-columns: repeat(2, minmax(30%, 360px));
+		/* gap: 32px;
+		margin-bottom: 64px; */
+	}
+}
 @media(max-width: 1024px) {
 	/* ********** banner_block ********** */
 
@@ -557,7 +567,7 @@ footer {}
 
 	/* ********** END categories ********** */
 	/* ********** products ********** */
-
+	.products{grid-template-columns: repeat(1, minmax(30%, 360px));}
 	.products_container {
 		margin: 0 8px;
 	}
