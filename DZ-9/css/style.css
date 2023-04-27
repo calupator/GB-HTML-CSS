@@ -31,7 +31,7 @@ a {
 	max-width: 1140px;
 	width: 100%;
 	margin: 0 auto;
-	outline: 1px dashed blue
+	/* outline: 1px dashed blue */
 }
 
 /* ********** header_container ********** */
@@ -783,7 +783,6 @@ footer {
 		height: calc(16.67vw - 18px);
 		/* height: calc(calc(33.33vw - 36px) * .5); */
 
-
 		width: 100%;
 		grid-column: 1 / -1;
 	}
@@ -1029,4 +1028,17 @@ footer {
 		padding: 43px 0 9px 0;
 	}
 
+}
+
+@media(max-width: 395px) {
+	.categories_block {		
+		width: 343px;
+		height: 247px;
+	}
+
+	.categories_block_big {
+		height: 111px;
+		width: 100%;
+		grid-column: 1 / -1;
+	}
 }
